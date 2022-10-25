@@ -1,0 +1,125 @@
+.face{
+    height: 700px; 
+    width: 100%;
+    background-color: #E4E8E6;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 100%;
+    width: 80%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+
+}
+.logopart{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+}
+.logopart h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal
+}
+
+.loginpart{
+    height: 100%;
+    width: 50%;
+    /* background-color:magenta; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.entry{
+    background-color:white;
+    height: 400px; 
+     width: 430px;
+    /* box-shadow:0px 0px 1px 1px rgb(66, 147,240); */
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+    
+    
+}
+.email{
+    width: 340px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 17px;
+    margin: 10px;
+    
+}
+.Password{
+    width: 340px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 17px;
+    margin: 10px;
+
+    
+    
+}
+.loginbutton{
+    width: 372px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: rgb(0, 89, 255);
+    color:white;
+    cursor: pointer;
+    margin: 10px;
+}
+.forgotten{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.lineonly{
+    width: 370px;
+    margin: 10px;
+    border: 1px solid #dddfe2;
+    
+}
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Account{
+    display: flex;
+    justify-content: center;
+
+}
+.newaccount{
+    
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: rgb(15, 128, 0);
+    color:white;
+    cursor: pointer;
+    margin: 10px;
+}
+.celebrity{
+    font-family: Arial, Helvetica, sans-serif;
+}
